@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: #E4E5A1;
     color: #333;
+    margin-bottom: 100px;
 }
 .container {
     width: 100%;
@@ -62,6 +63,11 @@ body {
     justify-content: space-around;
     background-color: #DDE78F;
     padding: 10px 0;
+    width:100%;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
 .navbar a {
     text-decoration: none;

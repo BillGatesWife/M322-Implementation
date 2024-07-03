@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     color: #333;
+    margin-bottom: 100px;
 }
 
 h1 {
@@ -52,6 +53,7 @@ h1 {
     justify-content: space-around;
     background-color: #B4C53B;
     padding: 10px 0;
+    
 }
 .navbar a {
     text-decoration: none;

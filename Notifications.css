@@ -1,16 +1,28 @@
 .box {
-  height: 256px;
-  width: 331px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #DDE78F;
+  padding: 10px;
 }
 
 .box .today {
-  height: 256px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #DDE78F;
+  padding: 10px;
   left: 0;
   position: fixed;
   top: 0;
-  width: 333px;
 }
-
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #E4E5A1;
+  color: #333;
+}
 .box .overlap {
   background-color: #EEEBA8;
   border-radius: 10px;
@@ -136,7 +148,11 @@
   align-items: center;
   margin-top: 10px;
 }
-
+.search-container {
+  
+  display: flex;
+  padding: 10px;
+}
 .widget {
   background-color: #EEEBA9;
           margin: 2%;
@@ -171,7 +187,11 @@
   display: flex;
   justify-content: space-around;
   background-color: #B4C53B;
+  width:100%;
   padding: 10px 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
 .navbar a {
   text-decoration: none;
